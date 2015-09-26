@@ -54,6 +54,7 @@ public class FirstFirefoxCode {
 		}
 		driver.close();
 		driver.quit();
+		System.out.println("Second Commit");
 	}
 	public void thirdCheeseLink(){
 		driver = new FirefoxDriver();
