@@ -31,7 +31,7 @@ public class FirstFirefoxCode {
 		
 		driver = new FirefoxDriver();
 		driver.get("http://www.google.com");
-		// Adding a Comment
+		// Adding a Comment on 2/2/2016
 		WebElement element = driver.findElement(By.name("q"));
 		element.sendKeys("Cheese");
 		element.submit();
