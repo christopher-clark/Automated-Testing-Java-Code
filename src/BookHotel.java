@@ -16,6 +16,7 @@ public class BookHotel {
 		String destination = "London England";
 		BookHotel bookHotel = new BookHotel();
 		bookHotel.startBrowser();
+		// Adding a comment
 		bookHotel.clearSearch();
 		bookHotel.citySearch(destination);
 		bookHotel.setCheckInDate();
